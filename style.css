@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffff; 
+    font-size: 2.8em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+    text-shadow: 0 0 15px #000000, 0 0 25px #042727, 0 0 35px #00ffff; /* I cheated this */
+}
+
+.game-container {
+    background-color: #111;
+    color: #00ff00;  
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 25px rgba(0, 255, 0, 0.5); /* I cheated this */
+}
+
+#message-container {
+    margin-bottom: 20px;
+    line-height: 1.6; 
+    color:white
+}
+
+#hint,
+#lives {
+    margin-bottom: 20px;
+    line-height: 1.6; 
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#letters button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#letters button:hover {
+    background-color: #ddd;
+}
+
+#word {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
