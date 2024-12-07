@@ -14,7 +14,8 @@ const words = [
     { word: "google", hint: "famous search engine" },
     { word: "tesla", hint: "unit of magnetic flux density" },
     { word: "mars", hint: "planet of our solar system" },
-    { word: "html", hint: "markup language for the web" }
+    { word: "html", hint: "markup language for the web" },
+    
 ]
 
 /*---------------------------- Variables (state) ----------------------------*/
@@ -84,9 +85,7 @@ function handleGuess(event) {
         lives--;
         livesDisplay.textContent = lives;
         
-        if (lives === 0) {
-            loseGame()
-        }
+        if (lives === 0) {       loseGame()   }
     }
 }
 
